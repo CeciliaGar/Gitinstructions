@@ -1,0 +1,235 @@
+Git 
+
+
+SCM – Source Control Management
+
+Uses the programs Git Bash, Power Shell, Command prompt, Mac Terminal for examples.
+
+Change over time.
+Go back and see what the changes were.
+Create a new version/branche to change and update the text.
+Go back to previos and different versions.
+Compare the differences between different versions.
+See who changed what.
+
+----------------- One time -------------------------- one time --------------
+
+Open Git Bash or any other terminal:
+Before getting started - configure your name and e-mail so you can see who have done the changes.
+git config -- global user.name "Cecilia Gårdebäck"
+git config -- global user.email ciz72@hotmail.com
+
+
+Set the default branch name:
+git config --global init.default branch NAME
+
+---------------- ------------------ ------------------- -------------------
+
+To get help with what the comands do write for example:
+git config -h
+or
+git help config
+
+To get a clear prompt write:
+clear
+
+---------------------------------------------------------------------------
+
+To get Git to track the files/create a repository:
+
+1. Notise the searchway where the files are saved and look that you stand at the same searchway where files are stored.
+	1.1 Change the directory where you stand ex.
+	    cd /c/map/file
+
+2.To create a/initialize a repository
+git init
+-You  get the message:
+
+In File Explorer/"tree" to your map if you can see .git
+
+if it´s not/otherwise go to: Menue -View -Show -Hidden items
+
+Get status over the repository
+git status
+-Here you see where you are/stand ex. on the main branch
+If there are any commits tracked/added files if it´s red, it´s not if the file is green it´s tracked/added/in the repository.
+So if youre doing changes in the file no one can see the changes yet because it´s not tracked/added in the repository.
+
+Track a file
+git add FILENAME 
+Then the file shows in green
+
+--------------------------------------------------------------------------
+
+Remow the file 
+git rm --cached FILE NAME
+
+To hide/ignore a file - not seen by others
+
+Go to File Explorer where you have the file you whant to hide/ignore. 
+
+Create a .txt file and name it .gitignore
+
+The text -"If you change a file name estension, the file might become unusable". Are you sure you want to change it?
+"Yes"
+
+New file .gitignore been created.
+
+Open the file in a texteditor ex. Notepad
+
+In Notepad - write what files you want to be hidden/ignored ex. 
+#ignore all .txt files
+*.txt
+
+To check that the file/s don´t shows, go to Git prompt and write
+git status
+Then the file/s not shown
+
+Track all the other files in Git
+git add --all
+or
+git add -A
+or
+git add .
+All files is showed in green because now they are added exept the hidden/ignored file/s
+
+
+
+Commit
+------
+
+Is like saving information in the file/s in the repository. Or explained: -"Like taking a snapshot of the repository at this point "of time. 
+git commit -m
+
+
+ 
+Change a file in the repository in Git
+--------------------------------------
+ 
+1.Do the changes in youre file and save it.
+
+2.In Git:
+git status
+-The file you changed is red because it´s now modified/changed, so now its not saved in the repository.
+
+To show what the differeces are, type:
+git diff
+
+To save the file with the changes to the repository
+git add FILENAME
+
+
+
+Three stages for saving
+-----------------------
+
+1. Working files(process)
+2. Staging(the file/s stored so you can process or commit) 
+3. Commit(Now it´s history)
+
+
+
+Staging
+-------
+
+To get th file back to staging from commit
+git restore --staged FILENAME
+
+Store the file directly in commit without saving it in staging:
+git commit -a -m
+
+
+
+Delete and restore
+------------------
+
+File Explorer:
+Delete the file(as ususal)
+
+You can check it in Git:
+git status
+Then it says in red text:
+deleted: FILENAME
+
+Git:
+git rm FILENAMNE
+
+Restore the file 
+git restore "FILENAME"
+
+
+
+Change old filename to new filename
+-----------------------------------
+
+git mv "FILENAME""FILENAME"
+git commit -m
+
+
+Information about the file
+--------------------------
+
+To see all about the file
+git log 
+
+Files shown togeather
+git log --oneline
+
+To see all the changes in a file:
+git log -p
+
+-------------------------------------------------------------------
+
+q
+ - quit
+
+clear
+clear the screen 
+
+:x
+takes you back to wherw you where before/Main terminal view
+
+
+
+Branch
+------
+
+A branch is a Copy of youre Main Branch.
+
+Make a branch in Git:
+Write the searchwaywhere you whant to stand -
+git cd /c/MAP/FILE
+
+git branch FILENAME
+To make a branch/copy of the file
+
+To confirme how many braches you have, write:
+git branch
+-It showes new file and the main.
+* An asterix(and green text) showes where you are.
+
+To change to another branch/file
+git switch FILENAME
+and that one will have the asterix and is green instead.
+
+git merge -m FILENAME 
+*FILENAME on the branch/file that you did changes in
+To get the changes in the changedbrand/file into the brand/file you want to have the changes.
+
+Delete a branch
+git branch -d FILENAME
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+  

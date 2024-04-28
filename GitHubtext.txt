@@ -1,0 +1,149 @@
+GitHub
+------
+------
+
+Stores your files in the cloud, care your files, discuss with others and more
+
+
+To create a new repositorie in GitHub
+-------------------------------------
+
+1. Start in Git and do the first section from the file Git Introduction Text to ---Now GitHub---
+
+Start GitHub
+
+	Repositories -New
+
+
+		Choose -Owner
+
+		Fill in -Repository name
+
+		Mark -Public or -Private
+		
+		Klick on -Create repository
+
+
+Do the commands for:
+...create a new repository on the command line
+or
+...push an existing repository from the command line
+
+(copy the rows with commands one at the time and paste(right click -paste) them in to Git)
+
+In GitHub Klick on the "repository name" 
+Then you can see the file/s in the reprostory
+
+If you have braches you can see them in -branches
+push a branch from Git in to -branches, go in to Git an write:
+git push --all
+
+
+
+The tabs related to this project:
+- Code -Issues -Pull requests - Actions -Projects -Wiki -Security -Insights -Settings
+
+
+-Code
+
+To see the log/status/data/changes:
+Under the tab -Code
+ 			 choose -file 
+				And you klick on the link on the right side of the file. 
+
+To change in the file just click on the filename and choose the pen to write/change in the file.
+
+Here you can also -add file
+
+
+In -About -"wheel"/settings you can write -Description - Website link - Topics
+-Include in the home page
+	-Releases
+	-Packages
+	-Environments
+
+
+-Issues 
+
+Where you can enter in feature requests or maybe if someone finds a bug, then you can save it under issues.
+If so: Click on -New issue 
+	You can give it a title/name	
+		In tab "Write" you can write down more details and descriptions.
+	
+
+On right side of the site you can:
+
+	Assigne the issue to someone by clicking on settings beside -Assignees.
+
+	Apply -Labels 
+		Write or/and sort it in a category.
+
+-Projects
+
+and more...
+
+-------------------------------------------------------------------
+
+To do a change in a file
+------------------------
+
+-Code
+Click on the filename
+Click on the pen/edit icon
+In the editview menu change to -soft wrap
+
+Do the changes
+
+Scroll down to choose:
+-Commit directly to the main branch
+or
+Create a new branch for this commit and start a pull request.
+	This means that you create a new branch/file and others can change the branch/file, but it need to bee checked/approved before it´s gonna be pushed back to the main branch/file again.
+And here you also can name the branch/file.
+
+Click - Commit changes
+
+
+
+(next page -Open a pull request)Write a name/explanation on the branch/file
+Click -Create pull request
+
+
+
+On the next page you can dicuss the change
+
+On the right hand side there´s -Development click on the settings gear. It ties the change/pullrequest back to the original issue.
+ 
+Click -Merge the pull request and -confirm it 
+Then it merge back into the main and also close out the corresponding issue.
+Look into the Issues tab and it´s epmty. Click on the text closed, you can see that it´s there and tell the work is done.
+   
+
+-Settings
+
+- Collaborators
+Add people to woek with you on your project
+
+Go back to the main repository view by cklicking on the repository name link
+on the right hand Click -Create a new release
+(next site) click on -Choose a tag
+Write a name for the tag and even bellow for a title(another name/text)
+(On right hand you can see some suggestions what title you chould use)
+Click - Public release 
+
+
+
+To sync the repository back to youre computer you go back to Git:
+git fetch
+git merge
+or
+git pull
+
+
+
+
+
+
+
+
+
