@@ -99,7 +99,7 @@ Commit
 ------
 
 Is like saving information in the file/s in the repository. Or explained: -"Like taking a snapshot of the repository at this point "of time. 
-git commit -m
+git commit -m "some text"
 
 
  
