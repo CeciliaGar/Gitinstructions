@@ -82,7 +82,42 @@ On right side of the site you can:
 
 and more...
 
+Down bellow you can discuss the issue with others.
+
+
+New branch for this commit and start a pull request
+----------------------------------------------------
+
+Do Issues
+
+Go to -Code You can pick a file you want to be changed
+
+Click on the -Pen -Wrap soft
+
+-Commit changes 
+	Choose: -Commit directly to the main branch 
+	or
+	-Create a new branch for this commit and start a pull request
+
+Click on Propose changes
+
+A New branch is created to someone whos gonna prove the cange back to myself.
+
+Subscribe in the title
+
+Click - Create pull request
+
+Pull request is created and on that side you can discuss.
+
+To connect the request back to the issue:
+On right hand click the -Settings gear in -Development and choose the link
+
+To merge the request an changes to main and close the issue:
+Click -Merge pull request -Confirm merge
+(Now it should be empty in Issues)
+
 -------------------------------------------------------------------
+
 
 To do a change in a file
 ------------------------
