@@ -158,7 +158,6 @@ Restore the file
 git restore "FILENAME"
 
 
-
 Change old filename to new filename
 -----------------------------------
 
@@ -188,7 +187,6 @@ clear the screen
 
 :x
 takes you back to wherw you where before/Main terminal view
-
 
 
 Branch
